@@ -1,3 +1,0 @@
-<?php
-
-$baseUrl = '/atendelab/public/';
