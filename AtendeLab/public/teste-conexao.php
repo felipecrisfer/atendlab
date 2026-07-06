@@ -1,16 +1,12 @@
 <?php
 
-$host = "localhost";
-$banco = "atendlab";
-$usuario = "root";
-$senha = "";
-    try {
-       $pdo =new PDO(
-        "mysql:host=$host;dbname=$banco;charset=utf8",
-        $usuario,
-        $senha
-       );
-        echo "Conexão deu certo";
-    } catch (PDOException $e) {
-        echo "Erro: " . $e->getMessage();
-    }
+echo "<pre>";
+
+echo "Arquivo atual:\n";
+echo __FILE__;
+
+echo "\n\nConteúdo da pasta public:\n";
+
+print_r(scandir(__DIR__));
+
+echo "</pre>";

@@ -1,8 +1,12 @@
 <?php
 
 $host = '127.0.0.1';
-$porta = '3306'; 
+$porta = '3306';
+<<<<<<< HEAD
 $banco = 'atendelab';
+=======
+$banco = 'atendlab';
+>>>>>>> 97f079d2e8feb20342dd35b2c44841d6ce78172a
 $usuario = 'root';
 $senha = '';
 
